@@ -52,6 +52,11 @@ export default new Router({
       name: "PokemonINdetail",
       component: () => import("./views/Pokemondetail"),
       props: true
+    },
+    {
+      path: "/Chat",
+      name: "ChatPage",
+      component: () => import("./views/Chat")
     }
   ]
 });
